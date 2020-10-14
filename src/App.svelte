@@ -30,11 +30,12 @@
   ];
 </script>
 
-
-<ul class = "collapsible">
-  {#each data as item}
-    <li>
-      <C_CollapsibleTool title={item.title} table_data={item.data}/>
-    </li>
-  {/each}
-</ul>
+<div class="container">
+  <ul class = "collapsible">
+    {#each data as item}
+      <li>
+        <C_CollapsibleTool title={item.title} table_data={item.data}/>
+      </li>
+    {/each}
+  </ul>
+</div>
