@@ -1,4 +1,5 @@
 <script>
+
     export let tool;
     export let state;
     export let link;
@@ -28,11 +29,8 @@
 </script>
 
 <tr>
-    <td>
-        <button class="waves-effect waves-light btn">
-            {tool}
-        </button>
-    </td>
+    <td>{tool}</td>
     <td><span class={setBadge(state)}>{state}</span></td>
     <td><a href="{link}" target="_blank">{link}</a></td>
 </tr>
+

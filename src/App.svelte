@@ -5,6 +5,7 @@
   import {data_stress} from './stress.js';
   import {data_api} from './api.js';
   import {data_ada} from './ada.js'
+
   const data = [
     {
       "title": "Manual",
@@ -23,7 +24,7 @@
       "data": data_pentesting
     },
     {
-      "title": "ADA_Testing",
+      "title": "ADA Testing",
       "data": data_ada
     }
   ];
