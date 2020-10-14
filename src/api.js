@@ -1,8 +1,13 @@
 export const data_api = [
     {
-        "tool" : "Mocha & Chai",
-        "state" : "Assess",
-        "link" : "https://mochajs.org/ || https://www.chaijs.com/"
+        "tool" : "Mocha",
+        "state" : "Adopt",
+        "link" : "https://mochajs.org/"
+    },
+    {
+        "tool" : "Chai",
+        "state" : "Adopt",
+        "link" : "https://www.chaijs.com/"
     },
     {
         "tool" : "Pact",

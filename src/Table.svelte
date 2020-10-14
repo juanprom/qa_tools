@@ -5,7 +5,7 @@
 
 <main>
   
-  <table class="centered">
+  <table class="centered" >
     
     <thead>
       <tr>

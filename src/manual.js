@@ -6,17 +6,17 @@ export const data_manual = [
     },
     {
         "tool" : "Trello",
-        "state" : "Trial",
+        "state" : "Assess",
         "link" : "https://trello.com/en"
     },
     {
         "tool" : "Bugzilla",
-        "state" : "Trial",
+        "state" : "Assess",
         "link" : "https://www.bugzilla.org/"
     },
     {
         "tool" : "GitHub Issues",
-        "state" : "Trial",
+        "state" : "Assess",
         "link" : "https://github.com/"
     },
    {
