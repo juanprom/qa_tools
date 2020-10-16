@@ -6,7 +6,7 @@ export const data_manual = [
     },
     {
         "tool" : "Trello",
-        "state" : "Assess",
+        "state" : "Hold",
         "link" : "https://trello.com/en"
     },
     {

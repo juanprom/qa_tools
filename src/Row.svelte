@@ -5,23 +5,22 @@
     export let link;
 
     const setBadge = (state) => {
-        const badge = "new badge";
-        let badgeStyle;
+        let badgeStyle = "new badge";
         switch (state) {
             case "Assess":
-                badgeStyle = `${badge} yellow`;
+                badgeStyle = `${badgeStyle} yellow`;
                 break;
             case "Trial":
-                badgeStyle = `${badge} blue`;
+                badgeStyle = `${badgeStyle} blue`;
                 break;
             case "Hold":
-                badgeStyle = `${badge} red`;
+                badgeStyle = `${badgeStyle} red`;
                 break;
             case "Adopt":
-                badgeStyle = `${badge} green`;
+                badgeStyle = `${badgeStyle} green`;
                 break;
             default:
-                badgeStyle = `${badge} grey`;
+                badgeStyle = `${badgeStyle} grey`;
                 break;
         }
         return badgeStyle;
@@ -30,7 +29,7 @@
 
 <tr>
     <td>{tool}</td>
-    <td><span class={setBadge(state)}>{state}</span></td>
+    <td><span class={setBadge(state)} data-badge-caption="{state}"></span></td>
     <td><a href="{link}" target="_blank">{link}</a></td>
 </tr>
 
